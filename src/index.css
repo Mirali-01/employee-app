@@ -11,3 +11,97 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.App{
+  border: solid black;
+  height: 87.5vh;
+  width: 85vh;
+  margin: auto;
+  display: flex;
+}
+
+.homePage{
+  border: solid orange;
+  height: 99%;
+  width: 48.5%;
+  margin: auto;
+}
+
+.searchBar{
+  border: solid chocolate;
+  margin-top: 0.5vh;
+}
+
+input{
+  /* border: solid green; */
+  height: 4vh;
+  width: 95%;
+  border-radius: 1vh;
+  margin: auto;
+  margin-top: 0.5vh;
+  margin-bottom: 0.5vh;
+}
+
+.employeeList{
+  /* border: solid purple; */
+  height: 72vh;
+  font-size: 15px;
+}
+
+.employeeListItem{
+  border: solid red;
+  height: 11vh;
+  margin-top: 0.5vh;
+  display: flex;
+  border-radius: 1vh;
+}
+
+.employeeImg{
+  /* border: solid cadetblue; */
+  height: 10vh;
+  width: 10vh;
+  margin-top: 1vh;
+}
+
+.avatar{
+  border: solid peru;
+  height: 9vh;
+  width: 9vh;
+  border-radius: 4.5vh;
+}
+
+.employeeDescription{
+  border: solid lawngreen;
+  height: 9vh;
+  width: 20vh;
+  margin-top: 1vh;
+  border-radius: 1vh;
+}
+
+.title{
+  /* border: solid navy; */
+  margin: 0;
+  margin-top: 1vh;
+}
+
+.role{
+  /* border: solid navy; */
+  margin: 0;
+}
+
+.employeePage{
+  border: solid brown;
+  height: 99%;
+  width: 48.5%;
+  margin: auto;
+}
+
+.header{
+  border: solid lightblue;
+  height: 7vh;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
